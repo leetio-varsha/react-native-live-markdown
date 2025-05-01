@@ -9,6 +9,10 @@
 #include "RCTMarkdownStyle.h"
 #include "RCTMarkdownUtils.h"
 
+#import <React/RCTViewManager.h>
+#import <react/renderer/components/view/ViewShadowNode.h>
+#import <react/renderer/components/view/ConcreteViewShadowNode.h>
+
 namespace facebook {
 namespace react {
 
