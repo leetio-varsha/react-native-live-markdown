@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "11.0", :visionos => "1.0" }
   s.source       = { :git => "https://github.com/expensify/react-native-live-markdown.git", :tag => "#{s.version}" }
 
-  s.source_files = "apple/**/*.{h,m,mm,cpp}", "cpp/**/*.{h,cpp}"
+  s.source_files = "apple/**/*.{h,mm,cpp}", "cpp/**/*.{h,cpp}"
+  s.exclude_files = "apple/MarkdownTextInputDecoratorShadowNode.mm"
 
   s.dependency "RNReanimated/worklets"
 
